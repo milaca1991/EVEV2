@@ -12,6 +12,13 @@ header,main{
 }
 
 
+/*variables*/
+
+$font-style: Arial, Helvetica, sans-serif;
+$padding-left:10%;
+$padding-right:10%;
+
+
 
 /*estilos header*/
 
@@ -56,22 +63,22 @@ box-sizing: border-box;
 h1{
 
 color: white;
-font-family:Arial, Helvetica, sans-serif;
+font-family:$font-style;
 font-weight: bold;
 font-style: italic;
 text-align: justify;
-padding-left: 10%;
-padding-right: 10%;
+padding-left: $padding-left;
+padding-right: $padding-right;
 font-size: 2rem;
 }
 
 h2{
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:$font-style;
     font-weight: normal;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
     font-size: 1.5rem;
     margin: 0% ;
   
@@ -81,11 +88,12 @@ h2{
 .textoIntro{
     
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font-style;
     font-weight: 100;
     font-style: italic;
     text-align:left;
-    padding: 0% 10% 0% 10%;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
     margin: 0%;
     font-size: 1.5rem;
   
@@ -97,19 +105,24 @@ h2{
 .paso1{
 
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:$font-style;
     font-size: 1.5rem;
     display: block;
-    text-align: center;
-    padding: 0% 15% 0% 8.5%;
+    text-align: left;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
 
+  
 }
-
+.cajaIconoTest{
+  
+    text-align: center;
+    }
 
 .pasos{
 
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:$font-style;
     font-size: 1.5rem;
     display: block;
     text-align: justify;
@@ -137,11 +150,12 @@ text-align: center;
 .paso3{
 
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:$font-style;
     font-size: 1.5rem;
     display: block;
     text-align: justify;
-    padding: 5% 15% 0% 5%;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
   
 }
 
@@ -159,10 +173,10 @@ text-align: center;
 .linkTest{
 
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:$font-style;
     font-size: 1.5rem;
     display: block;
-    text-align: left;
+    text-align: center;
     padding:2% 0% 0% 0%;
 }
 
@@ -181,19 +195,19 @@ text-align: center;
 .textoPolitica{
 
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:$font-style;
     font-size: 1.5rem;
     display: block;
     font-weight: normal;
     text-align: left;
-    padding-left: 8.5%;
-    padding-right: 10%;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
     
 }
 
 .linkPolitica{
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:$font-style;
     font-size: 1.5rem;
     display: block;
     font-weight: normal;
@@ -240,7 +254,7 @@ button:hover {
 
 .textoMenor{
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:$font-style;
     font-weight: normal;
     text-align: left;
     padding-left: 10%;
@@ -251,12 +265,12 @@ button:hover {
 
 .tituloNosotros{
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:$font-style;
     font-weight: normal;
-    text-align: left;
-    padding-left: 8.5%;
-    padding-right: 10%;
-    font-size: 1.7rem;
+    text-align: center;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+    font-size: 1.5rem;
     margin: 0%;
 
 }
@@ -271,12 +285,12 @@ button:hover {
 
 .textoNosotros{
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:$font-style;
     font-weight: normal;
-    text-align: left;
-    padding-left: 8.5%;
-    padding-right: 10%;
-    font-size: 1rem;
+    text-align: justify;
+    padding-left: $padding-left;
+    padding-right: $padding-right;
+    font-size: 1.5rem;
 
 }
 
@@ -310,7 +324,7 @@ padding: 3% 3% 5% 3%;
         display: block;
         margin: 0%;
         font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-style;
   
     }
 
@@ -403,7 +417,7 @@ padding: 3% 3% 5% 3%;
   
     h1 {
       color: white;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: $font-style;
       font-weight: bold;
       font-style: italic;
       margin: 0%;
@@ -416,7 +430,7 @@ padding: 3% 3% 5% 3%;
     .textoIntro{
     
       color: white;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: $font-style;
       font-weight: 100;
       font-style: italic;
       text-align: justify;
@@ -459,7 +473,7 @@ padding: 3% 3% 5% 3%;
   
   h2 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $font-style;
     font-weight: normal;
     text-align: justify;
     padding-left: 10%;
