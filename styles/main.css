@@ -1,0 +1,456 @@
+/*ESTILOS GENERALES*/
+html, body {
+  overflow-x: hidden;
+}
+
+header, main {
+  background-color: rgb(51, 138, 143);
+}
+
+/*estilos header*/
+/*estilos iconoGlobal*/
+.fondoIconoGlobal {
+  background-color: white;
+  max-width: 20vw;
+  max-height: 15vh;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  border-top-left-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  box-sizing: border-box;
+}
+
+.estiloIconoGlobal {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin: 18% 18%;
+  box-sizing: border-box;
+}
+
+/*icono escritorio*/
+.iconoEscritorio {
+  height: 100%;
+  width: 100%;
+}
+
+.textoH1 {
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 2rem;
+}
+
+h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.5rem;
+  margin: 0%;
+}
+
+.textoIntro {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  text-align: left;
+  padding: 0% 10% 0% 10%;
+  margin: 0%;
+  font-size: 1.5rem;
+}
+
+/*estilos pasos*/
+.paso1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  padding: 0% 15% 0% 8.5%;
+}
+
+.pasos {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  display: block;
+  text-align: justify;
+}
+
+.paso2 {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.iconoTest {
+  height: 50%;
+  width: 50%;
+}
+
+.paso3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  display: block;
+  text-align: justify;
+  padding: 5% 15% 0% 5%;
+}
+
+/*estilos test*/
+.test {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.linkTest {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  display: block;
+  text-align: left;
+  padding: 2% 0% 0% 0%;
+}
+
+.linkTest:hover {
+  color: rgb(90, 182, 151);
+  cursor: pointer;
+}
+
+.iconoCohete {
+  height: 30%;
+  width: 30%;
+  padding-right: 20%;
+}
+
+.textoPolitica {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  display: block;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 8.5%;
+  padding-right: 10%;
+}
+
+.linkPolitica {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  display: block;
+  font-weight: normal;
+  text-align: left;
+}
+
+.linkPolitica:hover {
+  color: rgb(90, 182, 151);
+  cursor: pointer;
+}
+
+/*
+button {
+
+    border: none;
+    background-color: aquamarine;
+    padding: 5%;
+    width: 30vw;
+    font-size: 1rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+} 
+
+button:hover {
+    background-color: rgb(90, 182, 151);
+    cursor: pointer;
+}
+*/
+.iconoAstronauta2 {
+  height: 55%;
+  width: 55%;
+  padding-left: 15%;
+}
+
+.textoMenor {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.7rem;
+}
+
+.tituloNosotros {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 8.5%;
+  padding-right: 10%;
+  font-size: 1.7rem;
+  margin: 0%;
+}
+
+.final {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.textoNosotros {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 8.5%;
+  padding-right: 10%;
+  font-size: 1rem;
+}
+
+.iconoAstronautaLateral {
+  height: 30%;
+  width: 30%;
+  padding-top: 15%;
+}
+
+/*footer*/
+footer {
+  background-color: rgb(36, 36, 34);
+  padding-top: 5%;
+}
+
+.contacto {
+  padding: 3% 3% 5% 3%;
+}
+
+.textoContacto {
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 0%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*boton whatsapp */
+.fab {
+  padding: 5%;
+  font-size: 2rem;
+  text-align: center;
+  width: 10%;
+  text-decoration: none;
+  margin: 0%;
+  border-radius: 50%;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+.fa-whatsapp {
+  background: #42b935;
+  color: white;
+}
+
+.icono-wap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+}
+
+.wap-imagen {
+  display: flex;
+  flex-direction: column;
+}
+
+/*modo responsive*/
+@media screen and (max-width: 426px) {
+  .final {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 768px) {
+  /*header*/
+  .estiloIconoGlobal {
+    height: 80%;
+    width: 70%;
+    display: block;
+    margin: 7% 8%;
+    box-sizing: border-box;
+  }
+  .fondoIconoGlobal {
+    background-color: white;
+    max-width: 15vw;
+    max-height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    border-top-left-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    box-sizing: border-box;
+  }
+  /*pagina inicial*/
+  h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0%;
+    font-size: 3rem;
+    text-align: left;
+    padding: 10% 5% 0% 0%;
+    margin-bottom: 5%;
+  }
+  .textoIntro {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-align: justify;
+    padding: 0% 10% 0% 0%;
+    margin: 0%;
+    font-size: 2rem;
+  }
+  .inicioAdaptable {
+    display: grid;
+    grid-template-columns: 2;
+    grid-row: 1;
+    margin-bottom: 4%;
+  }
+  .uno {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 0% 0% 0% 0%;
+  }
+  .dos {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 30% 0% 0% 0%;
+  }
+  .iconoEscritorio {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 2rem;
+    margin: 0%;
+  }
+  /*seccion 2 ruta test*/
+  .seccion2Adaptable {
+    display: grid;
+    grid-template-columns: 2;
+    grid-row: 1;
+    margin-bottom: 4%;
+  }
+  .paso1 {
+    display: inline;
+    padding: 0% 0% 0% 10%;
+  }
+  .iconoTest {
+    height: 20%;
+    width: 20%;
+    display: inline;
+  }
+  .cajaIconoTest {
+    padding: 0% 0% 0% 0%;
+    text-align: center;
+  }
+  .linkTest {
+    text-align: center;
+  }
+  .paso3 {
+    padding: 10% 10% 0% 10%;
+  }
+  .ajusteTest {
+    display: inline;
+  }
+  .seccion2Dos {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 5% 0% 0% 10%;
+  }
+  .seccion2Tres {
+    grid-column: 3;
+    grid-row: 1;
+    padding: 0% 0% 0% 0%;
+  }
+  /*seccion quienes somos*/
+  .iconoAstronautaLateral {
+    height: 20%;
+    width: 20%;
+    padding-top: 1%;
+    margin: 0% 10% 0% 10%;
+  }
+  .textoNosotros {
+    margin: 1% 0% 0% 10%;
+    padding: 2% 0% 0% 0%;
+  }
+  /*footer*/
+  .fab {
+    padding: 1%;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 3%;
+    text-decoration: none;
+    margin: 0%;
+    border-radius: 50%;
+  }
+  .contacto {
+    padding-bottom: 0%;
+  }
+  footer {
+    padding-top: 2%;
+  }
+  .hide {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1024px) {
+  .dos {
+    padding-top: 1%;
+  }
+  .paso1, .linkTest, .paso3, .textoPolitica, .tituloNosotros, .textoNosotros, .textoContacto {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1440px) {
+  .dos {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0% 0% 0% 0%;
+  }
+  .paso1, .linkTest, .paso3, .textoPolitica, .tituloNosotros, .textoNosotros, .textoContacto {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=main.css.map */
